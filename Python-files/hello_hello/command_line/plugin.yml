@@ -1,0 +1,10 @@
+name: ComeWorld
+main: io.github.mhelper.comeworld.comeworld
+version: 0.0.1-SNAPSHOT
+
+commands:
+   says:
+      description: This is a demo command.
+      usage: /<command> [player]
+      permission: comeworld.basic
+      permission-message: You don't have the permission, MOHAHAHA!

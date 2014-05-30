@@ -1,0 +1,10 @@
+name: HelloWorld
+main: io.github.mhelper.helloworld.helloworld
+version: 0.0.1-SNAPSHOT
+
+commands:
+   basic:
+      description: This is a demo command.
+      usage: /<command> [player]
+      permission: helloworld.basic
+      permission-message: You don't have the permission, MOHAHAHA!

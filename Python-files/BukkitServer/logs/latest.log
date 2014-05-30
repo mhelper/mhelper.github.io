@@ -1,0 +1,56 @@
+[22:06:10] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[22:06:10] [Server thread/INFO]: Loading properties
+[22:06:10] [Server thread/INFO]: Default game type: SURVIVAL
+[22:06:10] [Server thread/INFO]: Generating keypair
+[22:06:11] [Server thread/INFO]: Starting Minecraft server on 25.160.233.234:25565
+[22:06:11] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.1-b3084jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.1)
+[22:06:11] [Server thread/ERROR]: Could not load 'plugins/ComeWorld_0.0.1-SNAPSHOT.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+	at org.bukkit.craftbukkit.v1_7_R3.CraftServer.loadPlugins(CraftServer.java:355) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+	at org.bukkit.craftbukkit.v1_7_R3.CraftServer.<init>(CraftServer.java:317) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+	at net.minecraft.server.v1_7_R3.PlayerList.<init>(PlayerList.java:68) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-b3084jnks]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 9 more
+[22:06:11] [Server thread/INFO]: [HelloWorld] Loading HelloWorld v0.0.1-SNAPSHOT
+[22:06:11] [Server thread/INFO]: Preparing level "world"
+[22:06:11] [Server thread/INFO]: Preparing start region for level 0 (Seed: -719167671251288845)
+[22:06:12] [Thread-7/INFO]: ----- Bukkit Auto Updater -----
+[22:06:12] [Thread-7/INFO]: It appears that you're running a Beta Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[22:06:12] [Thread-7/INFO]: If you would like to be kept informed about new Beta Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'beta'.
+[22:06:12] [Thread-7/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[22:06:12] [Thread-7/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[22:06:12] [Thread-7/INFO]: ----- ------------------- -----
+[22:06:12] [Server thread/INFO]: Preparing spawn area: 81%
+[22:06:12] [Server thread/INFO]: Preparing start region for level 1 (Seed: -719167671251288845)
+[22:06:13] [Server thread/INFO]: Preparing start region for level 2 (Seed: -719167671251288845)
+[22:06:14] [Server thread/INFO]: [HelloWorld] Enabling HelloWorld v0.0.1-SNAPSHOT
+[22:06:14] [Server thread/INFO]: [HelloWorld] onEnable has been invoked!
+[22:06:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:06:14] [Server thread/INFO]: Done (2,807s)! For help, type "help" or "?"
+[22:06:33] [User Authenticator #1/INFO]: UUID of player muge is 5ddd0ee5-b336-46ad-ab41-19dc90e4e84b
+[22:06:33] [Server thread/INFO]: muge[/25.107.1.57:49951] logged in with entity id 265 at ([world] 420.43428213456787, 79.0, 102.4450217964179)
+[22:09:40] [Server thread/INFO]: [0;35;1m[@[0;35;1m] Welcome to Muge's Adventure map![m
+[22:13:14] [Server thread/INFO]: muge issued server command: /toggledownfall
+[22:13:14] [Server thread/INFO]: muge: Toggling downfall off for world 'world'[m
+[22:14:34] [Server thread/INFO]: [0;35;1m[@[0;35;1m] You won't survive![m
+[22:15:36] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[22:15:36] [Server thread/INFO]: Stopping server
+[22:15:36] [Server thread/INFO]: [HelloWorld] Disabling HelloWorld v0.0.1-SNAPSHOT
+[22:15:36] [Server thread/INFO]: [HelloWorld] onDisable has been invoked!
+[22:15:36] [Server thread/INFO]: Saving players
+[22:15:36] [Server thread/INFO]: muge lost connection: Server closed
+[22:15:36] [Server thread/INFO]: muge left the game.
+[22:15:36] [Server thread/INFO]: Saving worlds
+[22:15:36] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:15:37] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[22:15:37] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[22:15:37] [Thread-4/INFO]: Stopping server
+[22:15:37] [Thread-4/INFO]: Saving players
+[22:15:37] [Thread-4/INFO]: Saving worlds
+[22:15:37] [Thread-4/INFO]: Saving chunks for level 'world'/Overworld
